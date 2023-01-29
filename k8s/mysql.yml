@@ -50,7 +50,7 @@ spec:
           valueFrom:                # Read environment variables from kubernetes secrets
             secretKeyRef:
               name: dbsecret
-              key: asdfwsfrsfwefa@44
+              key: aSdfwsfrsfwefa-44
         ports:
         - containerPort: 3306        # The port that the container exposes       
           name: mysql
